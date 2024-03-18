@@ -1,1 +1,46 @@
+ Project: Predicting Solar Energy Production
+
+This project aims to develop a model to predict how much solar energy a location can generate. 
+
+Project Goal:
+
+ Build a model that predicts solar irradiance (solar energy reaching Earth's surface) using historical weather data.
+
+Project Benefits:
+
+ This model can be used to:
+     Optimize placement of solar panels
+     Forecast energy production from solar farms
+     Improve grid integration of solar power
+
+Data Description:
+
+ We will use weather data collected from a weather station over four months.
+ The data includes:
+     Temperature
+     Humidity
+     Barometric pressure
+     Wind direction & speed
+     Sunrise/sunset times
+     Solar radiation (target variable)
+
+Project Methodology:
+
+1. Data Preprocessing:
+     Clean and organize the data
+     Extract relevant features (e.g., time of day, month)
+     Select the most informative features for prediction
+
+2. Feature Engineering:
+     Apply transformations to improve model performance (e.g., scaling, normalization)
+
+3. Model Building:
+     Train a model (XGBoost) to predict solar irradiance based on weather data
+
+4. Evaluation:
+     Assess the model's accuracy in predicting solar energy production
+
+Expected Outcome:
+
+A model that can accurately predict solar irradiance based on weather data. This model can be used to estimate electricity generation from solar panels, aiding in planning and optimizing solar energy use.
 
